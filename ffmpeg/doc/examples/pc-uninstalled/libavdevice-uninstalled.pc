@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}/../../../libavdevice
+includedir=.
+
+Name: libavdevice
+Description: FFmpeg device handling library
+Version: 61.2.100
+Requires:  libavfilter >= 10.2.102,  libswscale >= 8.2.100,  libpostproc >= 58.2.100,  libavformat >= 61.3.104,  libavcodec >= 61.8.100,  libswresample >= 5.2.100,  libavutil >= 59.22.100
+Conflicts:
+Libs: -L${libdir} -Wl,-rpath,${libdir} -lavdevice -lm -latomic -ldrm -lm -lxcb -lXau -lXdmcp -lxcb-shm -lxcb -lXau -lXdmcp -lxcb-shape -lxcb -lXau -lXdmcp -lxcb-xfixes -lxcb -lXau -lxcb-render -lxcb -lXau -lxcb-shape -lxcb -lXau -lXdmcp -lasound -lm -ldl -lpthread -lrt -lSDL2 -lm -lasound -lm -ldl -lpthread -lpulse-simple -lpulse -pthread -lsamplerate -lX11 -lXext -lXcursor -lXi -lXfixes -lXrandr -lXss -ldrm -lgbm -lwayland-egl -lwayland-client -lwayland-cursor -lxkbcommon -ldecor-0 -lpthread -lrt -lsndio -lXv -lX11 -lpthread -lxcb -lXau -lXext -lX11 -lpthread -lxcb -lXau -lXdmcp -lX11 -lpthread -lxcb -lXau -lXdmcp -lXext -lX11 -lpthread -lxcb -lXau -lXdmcp
+Cflags: -I${includedir}

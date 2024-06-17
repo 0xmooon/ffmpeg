@@ -1,0 +1,14 @@
+/root/ffmpeg_build/include/aom/aom.h
+/root/ffmpeg_build/include/aom/aom_codec.h
+/root/ffmpeg_build/include/aom/aom_frame_buffer.h
+/root/ffmpeg_build/include/aom/aom_image.h
+/root/ffmpeg_build/include/aom/aom_integer.h
+/root/ffmpeg_build/include/aom/aom_decoder.h
+/root/ffmpeg_build/include/aom/aomdx.h
+/root/ffmpeg_build/include/aom/aomcx.h
+/root/ffmpeg_build/include/aom/aom_encoder.h
+/root/ffmpeg_build/include/aom/aom_external_partition.h
+/root/ffmpeg_build/lib/pkgconfig/aom.pc
+/root/ffmpeg_build/lib/libaom.a
+/root/ffmpeg_build/bin/aomdec
+/root/ffmpeg_build/bin/aomenc

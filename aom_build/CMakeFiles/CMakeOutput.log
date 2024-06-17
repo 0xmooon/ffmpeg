@@ -1,0 +1,1537 @@
+The system is: Linux - 6.1.0-21-arm64 - aarch64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/root/ffmpeg_sources/aom_build/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/root/ffmpeg_sources/aom_build/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-0Tt2wG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ab458/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ab458.dir/build.make CMakeFiles/cmTC_ab458.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-0Tt2wG'
+Building C object CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_ab458.dir/'
+ /usr/lib/gcc/aarch64-linux-gnu/12/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ab458.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -o /tmp/ccwBeIPM.s
+GNU C17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/aarch64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: f1bacec099212325d0da3c77e1f38897
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_ab458.dir/'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.o /tmp/ccwBeIPM.s
+GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_ab458
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab458.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.o -o cmTC_ab458 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ab458' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_ab458.'
+ /usr/lib/gcc/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQbF0eN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_ab458 /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/12 -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/12/../../.. CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ab458' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_ab458.'
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-0Tt2wG'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/aarch64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/aarch64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/12/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/aarch64-linux-gnu/12/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-0Tt2wG]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ab458/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ab458.dir/build.make CMakeFiles/cmTC_ab458.dir/build]
+  ignore line: [gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-0Tt2wG']
+  ignore line: [Building C object CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_ab458.dir/']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/12/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ab458.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -o /tmp/ccwBeIPM.s]
+  ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: f1bacec099212325d0da3c77e1f38897]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_ab458.dir/']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.o /tmp/ccwBeIPM.s]
+  ignore line: [GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_ab458]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab458.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.o -o cmTC_ab458 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ab458' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_ab458.']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQbF0eN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_ab458 /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/12 -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/12/../../.. CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQbF0eN.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ab458] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_ab458.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o] ==> [/usr/lib/aarch64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12] ==> [/usr/lib/gcc/aarch64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/aarch64-linux-gnu/Scrt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/12;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-MfqjQ0
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_36d71/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_36d71.dir/build.make CMakeFiles/cmTC_36d71.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-MfqjQ0'
+Building CXX object CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_36d71.dir/'
+ /usr/lib/gcc/aarch64-linux-gnu/12/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_36d71.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -o /tmp/ccwCkWBK.s
+GNU C++17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/12"
+ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/12
+ /usr/include/aarch64-linux-gnu/c++/12
+ /usr/include/c++/12/backward
+ /usr/lib/gcc/aarch64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/aarch64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 76d6f14273b9515783c50374b109b352
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_36d71.dir/'
+ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccwCkWBK.s
+GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_36d71
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36d71.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_36d71 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_36d71' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_36d71.'
+ /usr/lib/gcc/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8uRifT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_36d71 /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/12 -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/12/../../.. CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_36d71' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_36d71.'
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-MfqjQ0'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/12]
+    add: [/usr/include/aarch64-linux-gnu/c++/12]
+    add: [/usr/include/c++/12/backward]
+    add: [/usr/lib/gcc/aarch64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/aarch64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/12] ==> [/usr/include/c++/12]
+  collapse include dir [/usr/include/aarch64-linux-gnu/c++/12] ==> [/usr/include/aarch64-linux-gnu/c++/12]
+  collapse include dir [/usr/include/c++/12/backward] ==> [/usr/include/c++/12/backward]
+  collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/12/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/12;/usr/include/aarch64-linux-gnu/c++/12;/usr/include/c++/12/backward;/usr/lib/gcc/aarch64-linux-gnu/12/include;/usr/local/include;/usr/include/aarch64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-MfqjQ0]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_36d71/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_36d71.dir/build.make CMakeFiles/cmTC_36d71.dir/build]
+  ignore line: [gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-MfqjQ0']
+  ignore line: [Building CXX object CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_36d71.dir/']
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/12/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_36d71.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -fasynchronous-unwind-tables -o /tmp/ccwCkWBK.s]
+  ignore line: [GNU C++17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/12"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/12/../../../../aarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/12]
+  ignore line: [ /usr/include/aarch64-linux-gnu/c++/12]
+  ignore line: [ /usr/include/c++/12/backward]
+  ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/aarch64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 76d6f14273b9515783c50374b109b352]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_36d71.dir/']
+  ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccwCkWBK.s]
+  ignore line: [GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_36d71]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36d71.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_36d71 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/12/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_36d71' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_36d71.']
+  link line: [ /usr/lib/gcc/aarch64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8uRifT.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -o cmTC_36d71 /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/12 -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/12/../../.. CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc8uRifT.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_36d71] ==> ignore
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/aarch64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_36d71.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/Scrt1.o] ==> [/usr/lib/aarch64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12] ==> [/usr/lib/gcc/aarch64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/aarch64-linux-gnu/Scrt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/12/crtendS.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/12;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-WI9QFI
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1e75d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1e75d.dir/build.make CMakeFiles/cmTC_1e75d.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-WI9QFI'
+Building C object CMakeFiles/cmTC_1e75d.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_1e75d.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-WI9QFI/src.c
+Linking C executable cmTC_1e75d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e75d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1e75d.dir/src.c.o -o cmTC_1e75d 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-WI9QFI'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-SdTWUX
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dfdfd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dfdfd.dir/build.make CMakeFiles/cmTC_dfdfd.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-SdTWUX'
+Building C object CMakeFiles/cmTC_dfdfd.dir/src.c.o
+/usr/bin/cc -DC_TEST_COMPILED   -o CMakeFiles/cmTC_dfdfd.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-SdTWUX/src.c
+Linking C executable cmTC_dfdfd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfdfd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_dfdfd.dir/src.c.o -o cmTC_dfdfd 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-SdTWUX'
+
+
+Source file was:
+
+                          #if !(__pie__ || __PIE__)
+                          #error Neither __pie__ or __PIE__ are set
+                          #endif
+                          extern void unused(void);
+                          void unused(void) {} 
+int main(void) { return 0; }
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+GNU assembler (GNU Binutils for Debian) 2.40
+Copyright (C) 2023 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or later.
+This program has absolutely no warranty.
+This assembler was configured for a target of `aarch64-linux-gnu'.
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-2QSehS
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_61494/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_61494.dir/build.make CMakeFiles/cmTC_61494.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-2QSehS'
+Building C object CMakeFiles/cmTC_61494.dir/src.c.o
+/usr/bin/cc -DC_TEST_COMPILED  -fPIE -o CMakeFiles/cmTC_61494.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-2QSehS/src.c
+Linking C executable cmTC_61494
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61494.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_61494.dir/src.c.o -o cmTC_61494 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-2QSehS'
+
+
+Source file was:
+static inline void function(void) {} 
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-nWDAPM
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_19997/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_19997.dir/build.make CMakeFiles/cmTC_19997.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-nWDAPM'
+Building CXX object CMakeFiles/cmTC_19997.dir/src.cxx.o
+/usr/bin/c++ -DCXX_TEST_COMPILED  -fPIE -o CMakeFiles/cmTC_19997.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-nWDAPM/src.cxx
+Linking CXX executable cmTC_19997
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19997.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_19997.dir/src.cxx.o -o cmTC_19997 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-nWDAPM'
+
+
+Source file was:
+static inline void function(void) {} 
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-ImmQjR
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6eb16/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6eb16.dir/build.make CMakeFiles/cmTC_6eb16.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-ImmQjR'
+Building C object CMakeFiles/cmTC_6eb16.dir/src.c.o
+/usr/bin/cc -DC_TEST_COMPILED  -fPIE -o CMakeFiles/cmTC_6eb16.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-ImmQjR/src.c
+Linking C executable cmTC_6eb16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6eb16.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6eb16.dir/src.c.o -o cmTC_6eb16 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-ImmQjR'
+
+
+Source file was:
+#include <unistd.h> 
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-0760RG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_00b48/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_00b48.dir/build.make CMakeFiles/cmTC_00b48.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-0760RG'
+Building CXX object CMakeFiles/cmTC_00b48.dir/src.cxx.o
+/usr/bin/c++ -DCXX_TEST_COMPILED  -fPIE -o CMakeFiles/cmTC_00b48.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-0760RG/src.cxx
+Linking CXX executable cmTC_00b48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00b48.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_00b48.dir/src.cxx.o -o cmTC_00b48 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-0760RG'
+
+
+Source file was:
+#include <unistd.h> 
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-B7SHBA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_88af9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_88af9.dir/build.make CMakeFiles/cmTC_88af9.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-B7SHBA'
+Building C object CMakeFiles/cmTC_88af9.dir/src.c.o
+/usr/bin/cc -DC_TEST_COMPILED  -fPIE -o CMakeFiles/cmTC_88af9.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-B7SHBA/src.c
+Linking C executable cmTC_88af9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88af9.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_88af9.dir/src.c.o -o cmTC_88af9  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-B7SHBA'
+
+
+Source file was:
+#define _GNU_SOURCE
+                        #include <fenv.h>
+                        void unused(void) {
+                          (void)unused;
+                          (void)feenableexcept(FE_DIVBYZERO | FE_INVALID);
+                        } 
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-d0JjKW
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d507c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d507c.dir/build.make CMakeFiles/cmTC_d507c.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-d0JjKW'
+Building C object CMakeFiles/cmTC_d507c.dir/src.c.o
+/usr/bin/cc -DC_TEST_COMPILED  -fPIE -o CMakeFiles/cmTC_d507c.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-d0JjKW/src.c
+Linking C executable cmTC_d507c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d507c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d507c.dir/src.c.o -o cmTC_d507c  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-d0JjKW'
+
+
+Source file was:
+static void function(void) {} 
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-QxBt3m
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aee9f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aee9f.dir/build.make CMakeFiles/cmTC_aee9f.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-QxBt3m'
+Building CXX object CMakeFiles/cmTC_aee9f.dir/src.cxx.o
+/usr/bin/c++ -DCXX_TEST_COMPILED  -fPIE -o CMakeFiles/cmTC_aee9f.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-QxBt3m/src.cxx
+Linking CXX executable cmTC_aee9f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aee9f.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_aee9f.dir/src.cxx.o -o cmTC_aee9f  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-QxBt3m'
+
+
+Source file was:
+static void function(void) {} 
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Gsda2A
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_470ab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_470ab.dir/build.make CMakeFiles/cmTC_470ab.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Gsda2A'
+Building C object CMakeFiles/cmTC_470ab.dir/src.c.o
+/usr/bin/cc -DC_TEST_COMPILED  -march=armv8-a+crc -fPIE -o CMakeFiles/cmTC_470ab.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Gsda2A/src.c
+Linking C executable cmTC_470ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_470ab.dir/link.txt --verbose=1
+/usr/bin/cc   -march=armv8-a+crc CMakeFiles/cmTC_470ab.dir/src.c.o -o cmTC_470ab  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Gsda2A'
+
+
+Source file was:
+static void function(void) {} 
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-IL9bi7
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2df48/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2df48.dir/build.make CMakeFiles/cmTC_2df48.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-IL9bi7'
+Building CXX object CMakeFiles/cmTC_2df48.dir/src.cxx.o
+/usr/bin/c++ -DCXX_TEST_COMPILED  -march=armv8-a+crc -fPIE -o CMakeFiles/cmTC_2df48.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-IL9bi7/src.cxx
+Linking CXX executable cmTC_2df48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2df48.dir/link.txt --verbose=1
+/usr/bin/c++   -march=armv8-a+crc CMakeFiles/cmTC_2df48.dir/src.cxx.o -o cmTC_2df48  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-IL9bi7'
+
+
+Source file was:
+static void function(void) {} 
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-vsq6pl
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_221a5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_221a5.dir/build.make CMakeFiles/cmTC_221a5.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-vsq6pl'
+Building C object CMakeFiles/cmTC_221a5.dir/src.c.o
+/usr/bin/cc -DC_TEST_COMPILED  -march=armv8.2-a+dotprod -fPIE -o CMakeFiles/cmTC_221a5.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-vsq6pl/src.c
+Linking C executable cmTC_221a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_221a5.dir/link.txt --verbose=1
+/usr/bin/cc   -march=armv8.2-a+dotprod CMakeFiles/cmTC_221a5.dir/src.c.o -o cmTC_221a5  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-vsq6pl'
+
+
+Source file was:
+static void function(void) {} 
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-EDPrng
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5bcd0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5bcd0.dir/build.make CMakeFiles/cmTC_5bcd0.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-EDPrng'
+Building CXX object CMakeFiles/cmTC_5bcd0.dir/src.cxx.o
+/usr/bin/c++ -DCXX_TEST_COMPILED  -march=armv8.2-a+dotprod -fPIE -o CMakeFiles/cmTC_5bcd0.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-EDPrng/src.cxx
+Linking CXX executable cmTC_5bcd0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bcd0.dir/link.txt --verbose=1
+/usr/bin/c++   -march=armv8.2-a+dotprod CMakeFiles/cmTC_5bcd0.dir/src.cxx.o -o cmTC_5bcd0  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-EDPrng'
+
+
+Source file was:
+static void function(void) {} 
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-cHgOeH
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_69dd5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_69dd5.dir/build.make CMakeFiles/cmTC_69dd5.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-cHgOeH'
+Building C object CMakeFiles/cmTC_69dd5.dir/src.c.o
+/usr/bin/cc -DC_TEST_COMPILED  -march=armv8.2-a+dotprod+i8mm -fPIE -o CMakeFiles/cmTC_69dd5.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-cHgOeH/src.c
+Linking C executable cmTC_69dd5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69dd5.dir/link.txt --verbose=1
+/usr/bin/cc   -march=armv8.2-a+dotprod+i8mm CMakeFiles/cmTC_69dd5.dir/src.c.o -o cmTC_69dd5  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-cHgOeH'
+
+
+Source file was:
+static void function(void) {} 
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-XRnT91
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_393a4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_393a4.dir/build.make CMakeFiles/cmTC_393a4.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-XRnT91'
+Building CXX object CMakeFiles/cmTC_393a4.dir/src.cxx.o
+/usr/bin/c++ -DCXX_TEST_COMPILED  -march=armv8.2-a+dotprod+i8mm -fPIE -o CMakeFiles/cmTC_393a4.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-XRnT91/src.cxx
+Linking CXX executable cmTC_393a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_393a4.dir/link.txt --verbose=1
+/usr/bin/c++   -march=armv8.2-a+dotprod+i8mm CMakeFiles/cmTC_393a4.dir/src.cxx.o -o cmTC_393a4  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-XRnT91'
+
+
+Source file was:
+static void function(void) {} 
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-BWczXW
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d9cd5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d9cd5.dir/build.make CMakeFiles/cmTC_d9cd5.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-BWczXW'
+Building C object CMakeFiles/cmTC_d9cd5.dir/src.c.o
+/usr/bin/cc -DC_TEST_COMPILED  -march=armv8.2-a+dotprod+i8mm+sve -fPIE -o CMakeFiles/cmTC_d9cd5.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-BWczXW/src.c
+Linking C executable cmTC_d9cd5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9cd5.dir/link.txt --verbose=1
+/usr/bin/cc   -march=armv8.2-a+dotprod+i8mm+sve CMakeFiles/cmTC_d9cd5.dir/src.c.o -o cmTC_d9cd5  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-BWczXW'
+
+
+Source file was:
+static void function(void) {} 
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-yr3AH3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cd952/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cd952.dir/build.make CMakeFiles/cmTC_cd952.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-yr3AH3'
+Building CXX object CMakeFiles/cmTC_cd952.dir/src.cxx.o
+/usr/bin/c++ -DCXX_TEST_COMPILED  -march=armv8.2-a+dotprod+i8mm+sve -fPIE -o CMakeFiles/cmTC_cd952.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-yr3AH3/src.cxx
+Linking CXX executable cmTC_cd952
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd952.dir/link.txt --verbose=1
+/usr/bin/c++   -march=armv8.2-a+dotprod+i8mm+sve CMakeFiles/cmTC_cd952.dir/src.cxx.o -o cmTC_cd952  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-yr3AH3'
+
+
+Source file was:
+static void function(void) {} 
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-sHlYCV
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_500e0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_500e0.dir/build.make CMakeFiles/cmTC_500e0.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-sHlYCV'
+Building C object CMakeFiles/cmTC_500e0.dir/src.c.o
+/usr/bin/cc -DC_TEST_COMPILED  -march=armv9-a+i8mm+sve2 -fPIE -o CMakeFiles/cmTC_500e0.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-sHlYCV/src.c
+Linking C executable cmTC_500e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_500e0.dir/link.txt --verbose=1
+/usr/bin/cc   -march=armv9-a+i8mm+sve2 CMakeFiles/cmTC_500e0.dir/src.c.o -o cmTC_500e0  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-sHlYCV'
+
+
+Source file was:
+static void function(void) {} 
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Y2rCXy
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5916f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5916f.dir/build.make CMakeFiles/cmTC_5916f.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Y2rCXy'
+Building CXX object CMakeFiles/cmTC_5916f.dir/src.cxx.o
+/usr/bin/c++ -DCXX_TEST_COMPILED  -march=armv9-a+i8mm+sve2 -fPIE -o CMakeFiles/cmTC_5916f.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Y2rCXy/src.cxx
+Linking CXX executable cmTC_5916f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5916f.dir/link.txt --verbose=1
+/usr/bin/c++   -march=armv9-a+i8mm+sve2 CMakeFiles/cmTC_5916f.dir/src.cxx.o -o cmTC_5916f  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Y2rCXy'
+
+
+Source file was:
+static void function(void) {} 
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Z6gElO
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_160d7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_160d7.dir/build.make CMakeFiles/cmTC_160d7.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Z6gElO'
+Building C object CMakeFiles/cmTC_160d7.dir/src.c.o
+/usr/bin/cc -DC_TEST_COMPILED  -march=armv8.2-a+dotprod+i8mm+sve -fPIC -o CMakeFiles/cmTC_160d7.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Z6gElO/src.c
+Linking C static library libcmTC_160d7.a
+/usr/bin/cmake -P CMakeFiles/cmTC_160d7.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_160d7.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_160d7.a CMakeFiles/cmTC_160d7.dir/src.c.o
+/usr/bin/ranlib libcmTC_160d7.a
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Z6gElO'
+
+
+Source file was:
+
+#include <arm_sve.h>
+void other(void);
+svfloat32_t func(svfloat32_t a) {
+  other();
+  return a;
+} 
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_TEST_COMPILED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-ExG9z1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_931c0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_931c0.dir/build.make CMakeFiles/cmTC_931c0.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-ExG9z1'
+Building CXX object CMakeFiles/cmTC_931c0.dir/src.cxx.o
+/usr/bin/c++ -DCXX_TEST_COMPILED  -march=armv8.2-a+dotprod+i8mm+sve -fPIC -o CMakeFiles/cmTC_931c0.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-ExG9z1/src.cxx
+Linking CXX static library libcmTC_931c0.a
+/usr/bin/cmake -P CMakeFiles/cmTC_931c0.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_931c0.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_931c0.a CMakeFiles/cmTC_931c0.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_931c0.a
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-ExG9z1'
+
+
+Source file was:
+
+#include <arm_sve.h>
+void other(void);
+svfloat32_t func(svfloat32_t a) {
+  other();
+  return a;
+} 
+int main() { return 0; }
+
+Performing C SOURCE FILE Test HAVE_C_FLAG succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-1rAvBM
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_94324/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_94324.dir/build.make CMakeFiles/cmTC_94324.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-1rAvBM'
+Building C object CMakeFiles/cmTC_94324.dir/src.c.o
+/usr/bin/cc -DHAVE_C_FLAG  -fPIE   -std=c99 -o CMakeFiles/cmTC_94324.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-1rAvBM/src.c
+Linking C executable cmTC_94324
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94324.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_94324.dir/src.c.o -o cmTC_94324  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-1rAvBM'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-oAf3GJ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f5d1d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f5d1d.dir/build.make CMakeFiles/cmTC_f5d1d.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-oAf3GJ'
+Building CXX object CMakeFiles/cmTC_f5d1d.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG  -fPIE   -std=c++11 -o CMakeFiles/cmTC_f5d1d.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-oAf3GJ/src.cxx
+Linking CXX executable cmTC_f5d1d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5d1d.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_f5d1d.dir/src.cxx.o -o cmTC_f5d1d  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-oAf3GJ'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-GcubWA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c0b16/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c0b16.dir/build.make CMakeFiles/cmTC_c0b16.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-GcubWA'
+Building C object CMakeFiles/cmTC_c0b16.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED  -fPIE   -Wall -o CMakeFiles/cmTC_c0b16.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-GcubWA/src.c
+Linking C executable cmTC_c0b16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0b16.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c0b16.dir/src.c.o -o cmTC_c0b16  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-GcubWA'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-MjMFQ0
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13f1f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13f1f.dir/build.make CMakeFiles/cmTC_13f1f.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-MjMFQ0'
+Building CXX object CMakeFiles/cmTC_13f1f.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wall -o CMakeFiles/cmTC_13f1f.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-MjMFQ0/src.cxx
+Linking CXX executable cmTC_13f1f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13f1f.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_13f1f.dir/src.cxx.o -o cmTC_13f1f  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-MjMFQ0'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-SKMqLz
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_625b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_625b1.dir/build.make CMakeFiles/cmTC_625b1.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-SKMqLz'
+Building C object CMakeFiles/cmTC_625b1.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED  -fPIE   -Wdisabled-optimization -o CMakeFiles/cmTC_625b1.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-SKMqLz/src.c
+Linking C executable cmTC_625b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_625b1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_625b1.dir/src.c.o -o cmTC_625b1  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-SKMqLz'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-st9gA7
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f0e95/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f0e95.dir/build.make CMakeFiles/cmTC_f0e95.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-st9gA7'
+Building CXX object CMakeFiles/cmTC_f0e95.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wdisabled-optimization -o CMakeFiles/cmTC_f0e95.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-st9gA7/src.cxx
+Linking CXX executable cmTC_f0e95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0e95.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_f0e95.dir/src.cxx.o -o cmTC_f0e95  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-st9gA7'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-mHY1J6
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7fcf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7fcf.dir/build.make CMakeFiles/cmTC_b7fcf.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-mHY1J6'
+Building C object CMakeFiles/cmTC_b7fcf.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED  -fPIE   -Wextra -o CMakeFiles/cmTC_b7fcf.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-mHY1J6/src.c
+Linking C executable cmTC_b7fcf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7fcf.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b7fcf.dir/src.c.o -o cmTC_b7fcf  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-mHY1J6'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-XAXcUJ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_115df/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_115df.dir/build.make CMakeFiles/cmTC_115df.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-XAXcUJ'
+Building CXX object CMakeFiles/cmTC_115df.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wextra -o CMakeFiles/cmTC_115df.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-XAXcUJ/src.cxx
+Linking CXX executable cmTC_115df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_115df.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_115df.dir/src.cxx.o -o cmTC_115df  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-XAXcUJ'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-BOtKTu
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2e7d8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2e7d8.dir/build.make CMakeFiles/cmTC_2e7d8.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-BOtKTu'
+Building CXX object CMakeFiles/cmTC_2e7d8.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wextra-semi -o CMakeFiles/cmTC_2e7d8.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-BOtKTu/src.cxx
+Linking CXX executable cmTC_2e7d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e7d8.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_2e7d8.dir/src.cxx.o -o cmTC_2e7d8  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-BOtKTu'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-j2AzFz
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_25b91/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_25b91.dir/build.make CMakeFiles/cmTC_25b91.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-j2AzFz'
+Building C object CMakeFiles/cmTC_25b91.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED  -fPIE   -Wfloat-conversion -o CMakeFiles/cmTC_25b91.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-j2AzFz/src.c
+Linking C executable cmTC_25b91
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25b91.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_25b91.dir/src.c.o -o cmTC_25b91  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-j2AzFz'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-JX0RZY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_29594/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_29594.dir/build.make CMakeFiles/cmTC_29594.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-JX0RZY'
+Building CXX object CMakeFiles/cmTC_29594.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wfloat-conversion -o CMakeFiles/cmTC_29594.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-JX0RZY/src.cxx
+Linking CXX executable cmTC_29594
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29594.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_29594.dir/src.cxx.o -o cmTC_29594  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-JX0RZY'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-s0NG5P
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e6b4b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e6b4b.dir/build.make CMakeFiles/cmTC_e6b4b.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-s0NG5P'
+Building C object CMakeFiles/cmTC_e6b4b.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED  -fPIE   -Wformat=2 -o CMakeFiles/cmTC_e6b4b.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-s0NG5P/src.c
+Linking C executable cmTC_e6b4b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6b4b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e6b4b.dir/src.c.o -o cmTC_e6b4b  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-s0NG5P'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-rzXRqD
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2b538/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2b538.dir/build.make CMakeFiles/cmTC_2b538.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-rzXRqD'
+Building CXX object CMakeFiles/cmTC_2b538.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wformat=2 -o CMakeFiles/cmTC_2b538.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-rzXRqD/src.cxx
+Linking CXX executable cmTC_2b538
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b538.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_2b538.dir/src.cxx.o -o cmTC_2b538  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-rzXRqD'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-GwYvr4
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_793a2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_793a2.dir/build.make CMakeFiles/cmTC_793a2.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-GwYvr4'
+Building C object CMakeFiles/cmTC_793a2.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED  -fPIE   -Wimplicit-function-declaration -o CMakeFiles/cmTC_793a2.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-GwYvr4/src.c
+Linking C executable cmTC_793a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_793a2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_793a2.dir/src.c.o -o cmTC_793a2  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-GwYvr4'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-im6SKN
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18cf9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18cf9.dir/build.make CMakeFiles/cmTC_18cf9.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-im6SKN'
+Building C object CMakeFiles/cmTC_18cf9.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED  -fPIE   -Wlogical-op -o CMakeFiles/cmTC_18cf9.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-im6SKN/src.c
+Linking C executable cmTC_18cf9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18cf9.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_18cf9.dir/src.c.o -o cmTC_18cf9  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-im6SKN'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-D6fJLq
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fc5c3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fc5c3.dir/build.make CMakeFiles/cmTC_fc5c3.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-D6fJLq'
+Building CXX object CMakeFiles/cmTC_fc5c3.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wlogical-op -o CMakeFiles/cmTC_fc5c3.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-D6fJLq/src.cxx
+Linking CXX executable cmTC_fc5c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc5c3.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_fc5c3.dir/src.cxx.o -o cmTC_fc5c3  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-D6fJLq'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-zgY3xX
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_90fef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_90fef.dir/build.make CMakeFiles/cmTC_90fef.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-zgY3xX'
+Building C object CMakeFiles/cmTC_90fef.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED  -fPIE   -Wpointer-arith -o CMakeFiles/cmTC_90fef.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-zgY3xX/src.c
+Linking C executable cmTC_90fef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90fef.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_90fef.dir/src.c.o -o cmTC_90fef  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-zgY3xX'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-dZGr8U
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1309e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1309e.dir/build.make CMakeFiles/cmTC_1309e.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-dZGr8U'
+Building CXX object CMakeFiles/cmTC_1309e.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wpointer-arith -o CMakeFiles/cmTC_1309e.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-dZGr8U/src.cxx
+Linking CXX executable cmTC_1309e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1309e.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_1309e.dir/src.cxx.o -o cmTC_1309e  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-dZGr8U'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-y0N3Sg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_53c36/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_53c36.dir/build.make CMakeFiles/cmTC_53c36.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-y0N3Sg'
+Building C object CMakeFiles/cmTC_53c36.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED  -fPIE   -Wshadow -o CMakeFiles/cmTC_53c36.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-y0N3Sg/src.c
+Linking C executable cmTC_53c36
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53c36.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_53c36.dir/src.c.o -o cmTC_53c36  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-y0N3Sg'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Jbjxi0
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5597c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5597c.dir/build.make CMakeFiles/cmTC_5597c.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Jbjxi0'
+Building CXX object CMakeFiles/cmTC_5597c.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wshadow -o CMakeFiles/cmTC_5597c.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Jbjxi0/src.cxx
+Linking CXX executable cmTC_5597c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5597c.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_5597c.dir/src.cxx.o -o cmTC_5597c  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Jbjxi0'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-H3ebOJ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13063/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13063.dir/build.make CMakeFiles/cmTC_13063.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-H3ebOJ'
+Building C object CMakeFiles/cmTC_13063.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED  -fPIE   -Wsign-compare -o CMakeFiles/cmTC_13063.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-H3ebOJ/src.c
+Linking C executable cmTC_13063
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13063.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_13063.dir/src.c.o -o cmTC_13063  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-H3ebOJ'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-MitGEv
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fbee3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fbee3.dir/build.make CMakeFiles/cmTC_fbee3.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-MitGEv'
+Building CXX object CMakeFiles/cmTC_fbee3.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wsign-compare -o CMakeFiles/cmTC_fbee3.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-MitGEv/src.cxx
+Linking CXX executable cmTC_fbee3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbee3.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_fbee3.dir/src.cxx.o -o cmTC_fbee3  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-MitGEv'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-WvcSdf
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3847e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3847e.dir/build.make CMakeFiles/cmTC_3847e.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-WvcSdf'
+Building C object CMakeFiles/cmTC_3847e.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED  -fPIE   -Wtype-limits -o CMakeFiles/cmTC_3847e.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-WvcSdf/src.c
+Linking C executable cmTC_3847e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3847e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3847e.dir/src.c.o -o cmTC_3847e  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-WvcSdf'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-sydTaG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5c027/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5c027.dir/build.make CMakeFiles/cmTC_5c027.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-sydTaG'
+Building CXX object CMakeFiles/cmTC_5c027.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wtype-limits -o CMakeFiles/cmTC_5c027.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-sydTaG/src.cxx
+Linking CXX executable cmTC_5c027
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c027.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_5c027.dir/src.cxx.o -o cmTC_5c027  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-sydTaG'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-cEOpSC
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eb27d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eb27d.dir/build.make CMakeFiles/cmTC_eb27d.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-cEOpSC'
+Building C object CMakeFiles/cmTC_eb27d.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED  -fPIE   -Wuninitialized -o CMakeFiles/cmTC_eb27d.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-cEOpSC/src.c
+Linking C executable cmTC_eb27d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb27d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_eb27d.dir/src.c.o -o cmTC_eb27d  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-cEOpSC'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-JQVm0F
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d3a81/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d3a81.dir/build.make CMakeFiles/cmTC_d3a81.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-JQVm0F'
+Building CXX object CMakeFiles/cmTC_d3a81.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wuninitialized -o CMakeFiles/cmTC_d3a81.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-JQVm0F/src.cxx
+Linking CXX executable cmTC_d3a81
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3a81.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_d3a81.dir/src.cxx.o -o cmTC_d3a81  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-JQVm0F'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-2245fo
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5fcb2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5fcb2.dir/build.make CMakeFiles/cmTC_5fcb2.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-2245fo'
+Building C object CMakeFiles/cmTC_5fcb2.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED  -fPIE   -Wunused -o CMakeFiles/cmTC_5fcb2.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-2245fo/src.c
+Linking C executable cmTC_5fcb2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fcb2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5fcb2.dir/src.c.o -o cmTC_5fcb2  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-2245fo'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-PxVpd3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c3172/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c3172.dir/build.make CMakeFiles/cmTC_c3172.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-PxVpd3'
+Building CXX object CMakeFiles/cmTC_c3172.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wunused -o CMakeFiles/cmTC_c3172.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-PxVpd3/src.cxx
+Linking CXX executable cmTC_c3172
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3172.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_c3172.dir/src.cxx.o -o cmTC_c3172  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-PxVpd3'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-jHXlp3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_41839/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_41839.dir/build.make CMakeFiles/cmTC_41839.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-jHXlp3'
+Building C object CMakeFiles/cmTC_41839.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED  -fPIE   -Wvla -o CMakeFiles/cmTC_41839.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-jHXlp3/src.c
+Linking C executable cmTC_41839
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41839.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_41839.dir/src.c.o -o cmTC_41839  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-jHXlp3'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-02gFOg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_729ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_729ae.dir/build.make CMakeFiles/cmTC_729ae.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-02gFOg'
+Building CXX object CMakeFiles/cmTC_729ae.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wvla -o CMakeFiles/cmTC_729ae.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-02gFOg/src.cxx
+Linking CXX executable cmTC_729ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_729ae.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_729ae.dir/src.cxx.o -o cmTC_729ae  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-02gFOg'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-GzjKrS
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a7687/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a7687.dir/build.make CMakeFiles/cmTC_a7687.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-GzjKrS'
+Building CXX object CMakeFiles/cmTC_a7687.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wc++14-extensions -o CMakeFiles/cmTC_a7687.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-GzjKrS/src.cxx
+Linking CXX executable cmTC_a7687
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7687.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_a7687.dir/src.cxx.o -o cmTC_a7687  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-GzjKrS'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-KRrAzA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1e21f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1e21f.dir/build.make CMakeFiles/cmTC_1e21f.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-KRrAzA'
+Building CXX object CMakeFiles/cmTC_1e21f.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wc++17-extensions -o CMakeFiles/cmTC_1e21f.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-KRrAzA/src.cxx
+Linking CXX executable cmTC_1e21f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e21f.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_1e21f.dir/src.cxx.o -o cmTC_1e21f  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-KRrAzA'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-XVEEmd
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_213e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_213e9.dir/build.make CMakeFiles/cmTC_213e9.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-XVEEmd'
+Building CXX object CMakeFiles/cmTC_213e9.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wc++20-extensions -o CMakeFiles/cmTC_213e9.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-XVEEmd/src.cxx
+Linking CXX executable cmTC_213e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_213e9.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_213e9.dir/src.cxx.o -o cmTC_213e9  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-XVEEmd'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-wCxgBD
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3a56f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3a56f.dir/build.make CMakeFiles/cmTC_3a56f.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-wCxgBD'
+Building C object CMakeFiles/cmTC_3a56f.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED  -fPIE   -Wstack-usage=100000 -o CMakeFiles/cmTC_3a56f.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-wCxgBD/src.c
+Linking C executable cmTC_3a56f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a56f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3a56f.dir/src.c.o -o cmTC_3a56f  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-wCxgBD'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-IrDsMI
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ae613/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ae613.dir/build.make CMakeFiles/cmTC_ae613.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-IrDsMI'
+Building CXX object CMakeFiles/cmTC_ae613.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wstack-usage=240000 -o CMakeFiles/cmTC_ae613.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-IrDsMI/src.cxx
+Linking CXX executable cmTC_ae613
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae613.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_ae613.dir/src.cxx.o -o cmTC_ae613  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-IrDsMI'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-BW0LSY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ca95a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ca95a.dir/build.make CMakeFiles/cmTC_ca95a.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-BW0LSY'
+Building C object CMakeFiles/cmTC_ca95a.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED  -fPIE   -Wundef -o CMakeFiles/cmTC_ca95a.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-BW0LSY/src.c
+Linking C executable cmTC_ca95a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca95a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ca95a.dir/src.c.o -o cmTC_ca95a  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-BW0LSY'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-wBSPa3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cc0fb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cc0fb.dir/build.make CMakeFiles/cmTC_cc0fb.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-wBSPa3'
+Building CXX object CMakeFiles/cmTC_cc0fb.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -Wno-psabi -o CMakeFiles/cmTC_cc0fb.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-wBSPa3/src.cxx
+Linking CXX executable cmTC_cc0fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc0fb.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_cc0fb.dir/src.cxx.o -o cmTC_cc0fb  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-wBSPa3'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-XunKFT
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_df0e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_df0e9.dir/build.make CMakeFiles/cmTC_df0e9.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-XunKFT'
+Building C object CMakeFiles/cmTC_df0e9.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED  -fPIE   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0 -o CMakeFiles/cmTC_df0e9.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-XunKFT/src.c
+Linking C executable cmTC_df0e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df0e9.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_df0e9.dir/src.c.o -o cmTC_df0e9  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-XunKFT'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-hV1rF8
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7704c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7704c.dir/build.make CMakeFiles/cmTC_7704c.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-hV1rF8'
+Building CXX object CMakeFiles/cmTC_7704c.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED  -fPIE   -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0 -o CMakeFiles/cmTC_7704c.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-hV1rF8/src.cxx
+Linking CXX executable cmTC_7704c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7704c.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_7704c.dir/src.cxx.o -o cmTC_7704c  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-hV1rF8'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-f3TzgM
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cda45/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cda45.dir/build.make CMakeFiles/cmTC_cda45.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-f3TzgM'
+Building C object CMakeFiles/cmTC_cda45.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED -D_LARGEFILE_SOURCE  -fPIE -o CMakeFiles/cmTC_cda45.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-f3TzgM/src.c
+Linking C executable cmTC_cda45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cda45.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_cda45.dir/src.c.o -o cmTC_cda45  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-f3TzgM'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-WxWP4w
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8de9c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8de9c.dir/build.make CMakeFiles/cmTC_8de9c.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-WxWP4w'
+Building CXX object CMakeFiles/cmTC_8de9c.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED -D_LARGEFILE_SOURCE  -fPIE -o CMakeFiles/cmTC_8de9c.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-WxWP4w/src.cxx
+Linking CXX executable cmTC_8de9c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8de9c.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_8de9c.dir/src.cxx.o -o cmTC_8de9c  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-WxWP4w'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-uSKmYo
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_80240/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_80240.dir/build.make CMakeFiles/cmTC_80240.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-uSKmYo'
+Building C object CMakeFiles/cmTC_80240.dir/src.c.o
+/usr/bin/cc -DC_FLAG_SUPPORTED -D_FILE_OFFSET_BITS=64  -fPIE -o CMakeFiles/cmTC_80240.dir/src.c.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-uSKmYo/src.c
+Linking C executable cmTC_80240
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80240.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_80240.dir/src.c.o -o cmTC_80240  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-uSKmYo'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_FLAG_SUPPORTED succeeded with the following output:
+Change Dir: /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Lt8Rcx
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0dc0d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0dc0d.dir/build.make CMakeFiles/cmTC_0dc0d.dir/build
+gmake[1]: Entering directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Lt8Rcx'
+Building CXX object CMakeFiles/cmTC_0dc0d.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_SUPPORTED -D_FILE_OFFSET_BITS=64  -fPIE -o CMakeFiles/cmTC_0dc0d.dir/src.cxx.o -c /root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Lt8Rcx/src.cxx
+Linking CXX executable cmTC_0dc0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dc0d.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_0dc0d.dir/src.cxx.o -o cmTC_0dc0d  -lm 
+gmake[1]: Leaving directory '/root/ffmpeg_sources/aom_build/CMakeFiles/CMakeScratch/TryCompile-Lt8Rcx'
+
+
+Source file was:
+int main() { return 0; }
+

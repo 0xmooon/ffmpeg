@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+bf75c28fc7fe9a0838e8403acefc42e0 CMakeFiles/aom_version_check
+d65646e8df8c0442fbe30b7583da2fe3 CMakeFiles/dist
+714ce2a6407f8df26799a8a2f293512a aom.pc
+dbe4c9d4ff301fc1411eac5a5813edb4 config/aom_dsp_rtcd.h
+6260821bfc1768df1f271f266286e24a config/aom_scale_rtcd.h
+bf75c28fc7fe9a0838e8403acefc42e0 config/aom_version.h
+629b77b3077e70f3d2f8ae43512478dc config/av1_rtcd.h

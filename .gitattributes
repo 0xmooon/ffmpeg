@@ -1,0 +1,4 @@
+ffmpeg/ffprobe_g filter=lfs diff=lfs merge=lfs -text
+ffmpeg/ffmpeg_g filter=lfs diff=lfs merge=lfs -text
+ffmpeg/ffplay_g filter=lfs diff=lfs merge=lfs -text
+ffmpeg/libavcodec/libavcodec.a filter=lfs diff=lfs merge=lfs -text
